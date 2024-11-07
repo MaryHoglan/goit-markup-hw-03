@@ -7,17 +7,61 @@ body {
     font-size: 16px;
 }
 
+/* reset */
+
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6, p { margin: 0;}
 
 a {
     text-decoration: none;
 }
 
+/* common */
 
-.header-logo {
+.container { 
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    }
+
+.header-container { 
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list { 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -25,13 +69,20 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+}
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
-.logo-part {
+.header-logo .logo-part {
     color: #2e2f42;
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -41,9 +92,14 @@ a {
 
 .contacts {
     font-style: normal;
-}
+    margin-left: auto;
+    }
+
+
 
 .contacts-link {
+    padding: 24px 0;
+    display: block;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -58,19 +114,29 @@ a {
     color: #404bbf;
 }
 
+/* hero */
+
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
-.hero-title {
-    color: #ffffff;
+.conteiner-hero{ 
+   }
+
+
+.hero-title { margin: auto;
+     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    padding-bottom: 48px;
+    font-weight: 700px;
 }
 
-.hero-button {
+.hero-button { 
     color: #ffffff;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -78,6 +144,15 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+           
 }
 
 .hero-button:hover {
@@ -90,6 +165,7 @@ a {
     cursor: pointer;
 }
 
+/* service */
 
 .services {}
 
@@ -121,7 +197,7 @@ a {
 
 .services-text {}
 
-
+/* team */ 
 
 .team {
     background-color: #F4F4FD;
@@ -160,6 +236,7 @@ a {
     letter-spacing: 0.02em;
 }
 
+/* portfolio */
 
 .portfolio {}
 
@@ -190,6 +267,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* footer */
 
 .footer {
     background-color: #2e2f42
