@@ -211,11 +211,11 @@ margin: auto;}
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4) ;
 }
 
 .services-subtitle { 
-    margin-bottom: 8px
+    margin-bottom: 8px;
 
     color: #2e2f42;
     font-weight: 500;
@@ -229,7 +229,8 @@ margin: auto;}
 
 /* team */ 
 
-.team { padding: 120px 0;
+.team { 
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
@@ -339,7 +340,7 @@ margin: auto;}
 /* footer */
 
 .footer { padding: 100px 0;
-    background-color: #2e2f42
+    background-color: #2e2f42;
 }
 
 .footer-logo { 
