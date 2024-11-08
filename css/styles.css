@@ -222,7 +222,6 @@ margin: auto;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
 }
 
 .services-text {}
@@ -271,7 +270,6 @@ margin: auto;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-top: 32px;
     text-align: center;
 }
 
@@ -280,7 +278,12 @@ margin: auto;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
+   
+}
+
+.team-name {
+    padding: 32px 0;
+    
 }
 
 /* portfolio */
